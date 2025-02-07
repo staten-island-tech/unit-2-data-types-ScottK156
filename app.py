@@ -24,6 +24,25 @@ else:
     dog ="dogs"
 madlib = (f"I was {verb1} down the street. Then I saw a {noun}.Right next to {noun} I saw  {famous} they were {verb2} from {number} {dog}.")
 print(madlib) """
-number = input("Give me a munber")
-if number % 2 == 0
-
+""" #Tells if a number is odd or even
+number = float(input("Give me a munber"))
+if number %  2 == 0 :
+ print("The number is even")
+else:
+ print("This number is odd")
+ """
+""" #tip calcultor based on service
+bill= float(input("How much was the bill"))
+service = input("How was the service")
+if service == "okay":
+    tip = bill * 0.15
+elif service == "good":
+   tip = bill * 0.20
+elif service == "great":
+    tip = bill * 0.25
+else:
+   tip = 0
+print(f"Your tip will be {tip}")
+ """
+number = int(input("Give me a Number"))
+print(number)
