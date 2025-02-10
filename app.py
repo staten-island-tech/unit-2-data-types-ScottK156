@@ -44,5 +44,33 @@ else:
    tip = 0
 print(f"Your tip will be {tip}")
  """
+""" #facoizees a number(finds the factors)
 number = int(input("Give me a Number"))
-print(number)
+factors = []
+x = 0
+for i in range(1,number + 1):
+    x = x + 1
+    if number % x == 0:
+        factors.append(i)
+print(factors) """
+#Finds the GCF
+number = int(input("Give me a Number"))
+factors = []
+x = 0
+for i in range(1,number + 1):
+    x = x + 1
+    if number % x == 0:
+        factors.append(i)
+print(factors)
+numbers = int(input("Give me a Number"))
+factorss = []
+x = 0
+for i in range(1,numbers + 1):
+    x = x + 1
+    if numbers % x == 0:
+        factorss.append(i)
+print(factorss)
+common_items = set(factors) & set(factorss)
+if common_items:  # Check if there are any common elements
+    greatest_common = max(common_items)
+    print("The greatest common number is:", greatest_common)
