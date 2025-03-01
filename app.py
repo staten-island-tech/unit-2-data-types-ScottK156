@@ -70,7 +70,10 @@ for i in range(1,numbers + 1):
     if numbers % x == 0:
         factorss.append(i)
 print(factorss)
-common_items = set(factors) & set(factorss)
-if common_items:  # Check if there are any common elements
-    greatest_common = max(common_items)
-    print("The greatest common number is:", greatest_common)
+common_items = []
+for item in factors:
+    if item in factorss:
+      common_items.append(item)
+ 
+greatest_common = max(common_items)
+print("The greatest common number is:", greatest_common)
