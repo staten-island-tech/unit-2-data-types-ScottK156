@@ -53,7 +53,7 @@ for i in range(1,number + 1):
     if number % x == 0:
         factors.append(i)
 print(factors) """
-#Finds the GCF
+""" #Finds the GCF
 number = int(input("Give me a Number"))
 factors = []
 x = 0
@@ -76,4 +76,4 @@ for item in factors:
       common_items.append(item)
  
 greatest_common = max(common_items)
-print("The greatest common number is:", greatest_common)
+print("The greatest common number is:", greatest_common) """
