@@ -77,17 +77,3 @@ for item in factors:
  
 greatest_common = max(common_items)
 print("The greatest common number is:", greatest_common) """
-while True:    
- x = int(input("Give me a number"))
- if x == 0:
-   print("Error")
- elif x > 0:
-    for i in range(10):
-      z = x *  i
-      print(z)
-      if i == 10:
-       done = input("Would you like to continue or exit")
- elif done.lower() == "exit":     
-  break
- elif done.lower() == "continue":
-   continue
