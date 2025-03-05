@@ -32,7 +32,7 @@ while True:
         for i in range(11):
             print(x*i)
     hello = input("Would you like to continue or exit")
-    if hello.lower() == " exit" or hello.lower() == "exit":
+    if hello.lower() == " exit":
         break
     else:
         continue
